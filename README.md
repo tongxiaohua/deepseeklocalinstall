@@ -6,7 +6,7 @@
 
 * 原来的教程放在《原Linux部署教程》目录下
 
-* 此教程的部署环境是windows，用1.b模型做演示，所以对电脑配置几乎无配置要求，基本适用于所有个人电脑。但还是建议根据自己的配置选择更大的模型，1.5b模型约等于智障。
+* 此教程的部署环境是windows，用1.5b模型做演示，所以对电脑配置几乎无配置要求，基本适用于所有个人电脑。但还是建议根据自己的配置选择更大的模型，1.5b模型约等于智障。
 
 * 如果你可以科学上网，步骤会更简单。
 
@@ -144,6 +144,8 @@ cp .env.example .env
 docker compose up -d
 ```
 
+windwos中用copy替代cp指令
+
 github需要科学上网，本地 没有git的同学可以直接下载zip解压，我放了一份放在网盘：
 链接: https://pan.baidu.com/s/1cN7_LmdT0u-ZbANi0wmNTw?pwd=g5dn 提取码: g5dn 复制这段内容后打开百度网盘手机App，操作更方便哦。
 解压后注意路径，是dify-main，不是dify
@@ -188,7 +190,6 @@ http://host.docker.internal:11434
 关联成功后：
 ![alt text](image-12.png)
 
-可以开始用网页聊天了
 
 ## 创建本地知识库
 ![alt text](0c7f078f0fbf17f43a0f65a9e000bb8.png)
@@ -206,7 +207,7 @@ http://host.docker.internal:11434
 ![alt text](image-17.png)
 ![alt text](image-18.png)
 
-开始用网页版聊天了，可以看出1.5B就是智障，对文档的理解也基本没有
+开始用网页版聊天了，可以看出1.5B就是智障，对文档的理解也基本没有，模型换成更大的即可，也可以使用API关联在线模型。
 ![alt text](image-14.png)
 ![alt text](image-19.png)
 
@@ -217,5 +218,5 @@ http://host.docker.internal:11434
 AI时代，我们一起探讨实际落地的应用，群聊人数已超过200人，只能通过邀请加入，
 
 二维码过期可以添加好友拉群：
-![alt text](8ba2d055dff120cb4f12dbcb49bd30e.jpg)
+![alt text](image-20.png)
 
