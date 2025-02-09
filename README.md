@@ -179,7 +179,7 @@ ollma首次关联可能会报错。
 
 这是因为DOCKER与物理机的网络导致的，配置本地环境变量：
 ![alt text](33a8aa504e3daec787c9114bc755114.png)
-
+![alt text](d5f79bb1f531823e7048809887edf97.png)
 ![alt text](8ec71be5c72f4bc0acdec5fc4f2c955.png)
 
 关联地址是：
